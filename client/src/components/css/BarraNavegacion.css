@@ -1,0 +1,41 @@
+.barra-navegacion {
+    background-color:#f8f9fa;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacion {
+    max-width: 1200px;
+}
+
+.logo {
+    height: 100px;
+    left: 0;
+}
+
+.búsqueda-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+
+.BotonLogout{
+    position: absolute;
+    left: 73%;
+    top: 30px;
+  }
+
+  .saludo{
+    position: absolute;
+    font-family: Comic Sans MS;
+    left: 50%;
+    top: 30px;
+   
+  }
+
+

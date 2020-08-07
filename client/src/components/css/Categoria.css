@@ -1,0 +1,37 @@
+.Categoria {
+    display: flex;
+    flex-flow: column nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 40px;
+    position: fixed;
+    overflow: auto;
+    padding: 1px;
+    width: 200px;
+    height: 100%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+
+    btn:hover {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:white;
+    }
+
+    .ListaCategoria{
+        margin-left: 7px;
+        width: 180px;
+        color:white;
+        list-style: none;
+            
+        }
+.ListaCategoria:hover {
+  font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+        a:active {
+           color: black
+            }
